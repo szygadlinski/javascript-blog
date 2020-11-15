@@ -47,6 +47,7 @@ body {
 .posts {
   -ms-flex: 2 0 0px;
       flex: 2 0 0;
+  position: relative;
 }
 
 .sidebar, .posts {
@@ -88,11 +89,15 @@ body {
 
 /* Post */
 .post {
-  display: none;
+  position: absolute;
+  padding-right: 40px;
+  opacity: 0;
 }
 
 .post.active {
-  display: block;
+  opacity: 1;
+  transition: 2s;
+  z-index: 1;
 }
 
 .post-title {
