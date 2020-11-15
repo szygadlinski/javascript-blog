@@ -6,10 +6,10 @@
 }
 
 body {
-  background: #fff;
+  background: #D8ADFE;
   font-family: "Source Sans Pro", sans-serif;
-  color: #444;
-  font-weight: 300;
+  color: #3F0076;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
 }
@@ -29,7 +29,7 @@ body {
 .section-title span {
   text-transform: none;
   font-weight: 400;
-  color: #777777;
+  color: #7500dc;
 }
 
 /* Layout */
@@ -50,18 +50,19 @@ body {
 }
 
 .sidebar, .posts {
-  background: #fff;
+  background: #D8ADFE;
   margin-right: 10px;
+  margin-bottom: 20px;
   padding: 40px;
-  border: 1px solid #444;
-  border-radius: 5px;
+  border: 3px solid #3F0076;
+  border-radius: 40px;
 }
 
 /* Logo */
 .logo {
   font-family: "Sacramento", cursive;
-  font-weight: 400;
-  font-size: 104px;
+  font-weight: 900;
+  font-size: 130px;
   line-height: 1;
   text-align: center;
 }
@@ -77,13 +78,12 @@ body {
   font-weight: bold;
 }
 
-.list-horizontal li {
-  display: inline-block;
+.list li {
+  margin-bottom: 6px;
 }
 
-/* Authors */
-.authors li {
-  margin-bottom: 12px;
+.list-horizontal li {
+  display: inline-block;
 }
 
 /* Post */
@@ -95,8 +95,19 @@ body {
   display: block;
 }
 
+.post-title {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
 .post-author {
   font-style: italic;
+  margin-top: 0;
+}
+
+.post-content {
+  text-align: justify;
 }
 
 .post-tags {
@@ -106,5 +117,16 @@ body {
 
 .post-tags p {
   margin: 0 10px 0 0;
+}
+
+/* Media */
+@media (max-width: 767px) {
+  .wrapper {
+    display: block;
+  }
+  .list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
