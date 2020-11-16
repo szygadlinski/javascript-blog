@@ -1,5 +1,7 @@
 'use strict';
 
+/* global document */
+
 {
 
 /* document.getElementById('test-button').addEventListener('click', function(){
@@ -82,7 +84,7 @@ const generateTitleLinks = function(){
 		/* insert link into titleList */
 
 		html = html + htmlLink;
-		//titleList.insertAdjacentHTML('beforeend', htmlLink); ???
+		//titleList.insertAdjacentHTML('beforeend', htmlLink); /* druga metoda */
 
 	}
 
