@@ -61,7 +61,7 @@ body {
 .sidebar, .posts {
   background: $color-light;
   margin-right: 10px;
-	margin-bottom: 20px;
+  margin-bottom: 20px;
   padding: 40px;
   border: 3px solid $color-dark;
   border-radius: 40px;
@@ -88,14 +88,13 @@ body {
     font-weight: bold;
   }
 
-	li {
-		margin-bottom: 6px;
-	}
+  li {
+    margin-bottom: 6px;
+  }
 
 }
 
 .list-horizontal {
-
   li {
     display: inline-block;
   }
@@ -105,27 +104,27 @@ body {
 /* Post */
 
 .post {
-	display: none;
+  display: none;
 
   &.active {
-		display: block;
+    display: block;
   }
 
 }
 
 .post-title {
-	font-size: 24px;
-	margin-top: 15px;
-	margin-bottom: 0;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
 
 .post-author {
   font-style: italic;
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .post-content {
-	text-align: justify;
+  text-align: justify;
 }
 
 .post-tags {
@@ -140,14 +139,13 @@ body {
 /* Media */
 
 @media (max-width: 767px) {
+  .wrapper {
+    display: block;
+  }
 
-	.wrapper {
-	  display: block;
-	}
-
-	.list li {
-		display: inline-block;
-		margin-right: 10px;
-	}
+  .list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
 
 }
