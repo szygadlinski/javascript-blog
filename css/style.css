@@ -120,6 +120,31 @@ body {
   margin: 0 10px 0 0;
 }
 
+/* Tags */
+.tag-size-1 {
+  color: #B666D2;
+}
+
+.tag-size-2 {
+  font-size: 20px;
+  color: #AB4CCE;
+}
+
+.tag-size-3 {
+  font-size: 24px;
+  color: #A022CE;
+}
+
+.tag-size-4 {
+  font-size: 28px;
+  color: #7B00A8;
+}
+
+.tag-size-5 {
+  font-size: 32px;
+  color: #68038D;
+}
+
 /* Media */
 @media (max-width: 767px) {
   .wrapper {
